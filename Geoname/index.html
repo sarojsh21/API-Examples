@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>HTML template | IT Career Switch</title>
+		<meta name="description" content="AJAX/PHP/CURL/JSON">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="favicon.ico" rel="icon">
+		<link href="css/css.css" rel="stylesheet">
+
+	</head>
+
+	<body >
+		<div>
+		<h3> Country Info </h3>
+		
+		<select id="countrylist">
+		<option value="">--Please choose an option--</option>
+			<option value="AD">Andorra</option>
+			<option value="AE">United Arab Emirates</option>
+			<option value="PT">Portugal</option>
+			<option value="CH">Switzerland</option>
+			<option value="CL">Chile</option>
+			<option value="CN">China</option>
+		</select>
+		
+		
+		<button id="btnRun" onclick="TestsFunction()">Click</button>
+		</div>
+
+		<br>
+
+		<div  id="preloader" style="display:none">
+			
+			<table>
+
+				<tr>
+					<td align="right">
+						Continent: 
+					</td>
+					<td id="txtcontinent">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Country Code: 
+					</td>
+					<td id="txtcountryCode">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Capital: 
+					</td>
+					<td id="txtCapital">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Currency Code: 
+					</td>
+					<td id="txtcurrencyCode">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Geo ID: 
+					</td>
+					<td id="txtgeoId">
+						
+					</td>
+
+				</tr>
+				
+
+			</table>
+
+		</div>
+		
+
+		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+		<script type="application/javascript" src="java/script.js"></script>
+		<script type="application/javascript" src="java/script2.js"></script>
+
+	</body>
+
+</html>

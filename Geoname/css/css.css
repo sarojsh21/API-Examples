@@ -1,6 +1,6 @@
 #preloader {  
 position: absolute;  
-text-align: center;
+text-align: left;
 top: 0.2;  left: 0;  
 right: 0;  
 bottom: 0.2;  
@@ -8,7 +8,25 @@ z-index: 9999;
 overflow: hidden;  
 background: #fff;
 }
-
+label,input{
+	display: block;
+}
+#main {
+	box-sizing: border-box;
+	border: double;
+	width: 500px;
+	height: 190px;
+}
+#test {
+	box-sizing: border-box;
+	border: double;
+	width: 500px;
+	height: 190px;
+	
+}
+#txthouse {
+	text-align:left;
+}
 
 #preloader:before {  
 content: "";  
